@@ -50,9 +50,9 @@ public class Customer
     public void getBooks()
     {
         System.out.println("Books Bought by " + this.getCustomerName() + ": ");
-        for(Book b : booksBought){
-            if( b != null){
-                System.out.println(b + "\n");
+        for(Book q : booksBought){
+            if( q != null){
+                System.out.println(q.getBookTitle() + "\n");
             }
         }
     }

@@ -73,31 +73,33 @@ public class Book
             System.out.println("There are not enough copies of that book available.");
         } else {
             bookStockCount -= copies;
-            c.addBook(b);
+            for (int i = 0; i < copies; i++) {
+                c.addBook(b);
+            }
         }
     }
 
     public Book(int bookID, String title, String author, String publisher, int publicationYear, int bookStock, double price)
     {
         this.bookIDNum = bookID;
-        this.bookTitle = title;
-        this.bookAuthor = author;
-        this.bookPublisher = publisher;
-        this.publicationYear = publicationYear;
-        this.bookStockCount = bookStock;
-        this.bookPrice = price;
+                this.bookTitle = title;
+                this.bookAuthor = author;
+                this.bookPublisher = publisher;
+                this.publicationYear = publicationYear;
+                this.bookStockCount = bookStock;
+                this.bookPrice = price;
 
-        bookSoldCount = 25;
-    }
+                bookSoldCount = 25;
+                }
 
-    public void restockBooks(int numBooks)
-    {
+public void restockBooks(int numBooks)
+        {
         if (numBooks >= 1)
         {
-            bookStockCount += numBooks;
+        bookStockCount += numBooks;
         } else {
-            System.out.println("That is not a valid number of books to restock with.");
+        System.out.println("That is not a valid number of books to restock with.");
         }
 
-    }
-}
+        }
+        }

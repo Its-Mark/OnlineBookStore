@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3750c999-afb6-47be-9a37-f7d310fb7281" name="Default Changelist" comment="" />
+    <list default="true" id="3750c999-afb6-47be-9a37-f7d310fb7281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineBookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineBookStore.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZQO3JjUx6X0gBzuS64vl5WVurX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -49,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584767650824</updated>
-      <workItem from="1584767653871" duration="2750000" />
+      <workItem from="1584767653871" duration="3671000" />
     </task>
     <servers />
   </component>
@@ -57,22 +68,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1326" height="393" key="GridCell.Tab.0.bottom" timestamp="1584770233469">
+    <state width="1326" height="212" key="GridCell.Tab.0.bottom" timestamp="1584771154048">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="393" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584770233469" />
-    <state width="1326" height="393" key="GridCell.Tab.0.center" timestamp="1584770233469">
+    <state width="1326" height="212" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584771154048" />
+    <state width="1326" height="212" key="GridCell.Tab.0.center" timestamp="1584771154047">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="393" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584770233469" />
-    <state width="1326" height="393" key="GridCell.Tab.0.left" timestamp="1584770233468">
+    <state width="1326" height="212" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584771154047" />
+    <state width="1326" height="212" key="GridCell.Tab.0.left" timestamp="1584771154046">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="393" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584770233468" />
-    <state width="1326" height="393" key="GridCell.Tab.0.right" timestamp="1584770233469">
+    <state width="1326" height="212" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584771154046" />
+    <state width="1326" height="212" key="GridCell.Tab.0.right" timestamp="1584771154047">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="393" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584770233469" />
+    <state width="1326" height="212" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584771154047" />
     <state x="343" y="200" key="run.anything.popup" timestamp="1584770332993">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -81,16 +92,5 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1584769046584" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Book.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
