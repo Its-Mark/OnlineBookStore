@@ -63,13 +63,9 @@ public class Book
 
     public void bookSale(int copies, Customer c, Book b)
     {
-        if (copies < 0)
-        {
+        if (copies < 0){
             System.out.println("That is not a valid input.");
-        }
-        // This will take care of a negative stock count happening or more copies requested than available occuring
-        else if (bookStockCount < copies)
-        {
+        } else if (bookStockCount < copies) {
             System.out.println("There are not enough copies of that book available.");
         } else {
             bookStockCount -= copies;
